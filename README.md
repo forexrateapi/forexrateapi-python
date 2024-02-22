@@ -47,7 +47,7 @@ client.fetchLive(base='USD', currencies=['AUD', 'CAD', 'GBP', 'JPY'])
 - `currencies` <[List]<[string]>> Optional. Pass in an list of currencies to return values for.
 
 ```python
-client.fetchHistorical(date='2021-04-05', base='USD', currencies=['AUD', 'CAD', 'GBP', 'JPY'])
+client.fetchHistorical(date='2024-02-05', base='USD', currencies=['AUD', 'CAD', 'GBP', 'JPY'])
 ```
 
 [Link](https://forexrateapi.com/documentation#api_historical)
@@ -61,7 +61,7 @@ client.fetchHistorical(date='2021-04-05', base='USD', currencies=['AUD', 'CAD', 
 - `date` <[string]> Optional. Specify date to use historical midpoint value for conversion with format `YYYY-MM-DD`. Otherwise, it will use live exchange rate date if value not passed in.
 
 ```python
-client.convert(from_currency='USD', to_currency='EUR', amount=100, date='2021-04-05')
+client.convert(from_currency='USD', to_currency='EUR', amount=100, date='2024-02-05')
 ```
 
 [Link](https://forexrateapi.com/documentation#api_convert)
@@ -75,7 +75,7 @@ client.convert(from_currency='USD', to_currency='EUR', amount=100, date='2021-04
 - `currencies` <[List]<[string]>> Optional. Pass in an list of currencies to return values for.
 
 ```python
-client.timeframe(start_date='2021-04-05', end_date='2021-04-06', base='USD', currencies=['AUD', 'CAD', 'GBP', 'JPY'])
+client.timeframe(start_date='2024-02-05', end_date='2024-02-06', base='USD', currencies=['AUD', 'CAD', 'GBP', 'JPY'])
 ```
 
 [Link](https://forexrateapi.com/documentation#api_timeframe)
@@ -89,7 +89,7 @@ client.timeframe(start_date='2021-04-05', end_date='2021-04-06', base='USD', cur
 - `currencies` <[List]<[string]>> Optional. Pass in an list of currencies to return values for.
 
 ```python
-client.change(start_date='2021-04-05', end_date='2021-04-06', base='USD', currencies=['AUD', 'CAD', 'GBP', 'JPY'])
+client.change(start_date='2024-02-05', end_date='2024-02-06', base='USD', currencies=['AUD', 'CAD', 'GBP', 'JPY'])
 ```
 
 [Link](https://forexrateapi.com/documentation#api_change)

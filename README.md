@@ -53,6 +53,20 @@ client.fetchHistorical(date='2024-02-05', base='USD', currencies=['AUD', 'CAD', 
 [Link](https://forexrateapi.com/documentation#api_historical)
 
 ---
+#### ohlc(base, currency, date, date_type)
+
+- `base` <[string]> Optional. Pass in a base currency, defaults to USD.
+- `currency` <[string]> Required. Specify currency you would like to get OHLC for.
+- `date` <[string]> Required. Specify date to use historical midpoint value for conversion with format `YYYY-MM-DD`. Otherwise, it will use live exchange rate date if value not passed in.
+- `date_type` <[string]> Optional. Pass in a date type.
+
+```python
+client.ohlc(base='USD', currency='EUR', date='2024-02-05', date_type=None)
+```
+
+[Link](https://forexrateapi.com/documentation#api_ohlc)
+
+---
 #### convert(from_currency, to_currency, amount, date)
 
 - `from_currency` <[string]> Optional. Pass in a base currency, defaults to USD.
@@ -94,6 +108,14 @@ client.change(start_date='2024-02-05', end_date='2024-02-06', base='USD', curren
 
 [Link](https://forexrateapi.com/documentation#api_change)
 
+---
+#### usage()
+
+```python
+client.usage()
+```
+
+[Link](https://forexrateapi.com/documentation#api_usage)
 ---
 **[Official documentation](https://forexrateapi.com/documentation)**
 

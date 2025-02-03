@@ -2,8 +2,10 @@ import setuptools
 
 setuptools.setup(
     name="forexrateapi",
-    version="1.0.4",
+    version="1.1.2",
     url="https://github.com/forexrateapi/forexrateapi-python",
+
+    license_files=('LICENSE'),
 
     author="ForexRateAPI",
     author_email="contact@forexrateapi.com",
